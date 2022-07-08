@@ -66,3 +66,15 @@ body{
 .header .navbar a:hover{
     color: var(--orange);
 }
+
+.header .icons div{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    color: var(--black);
+    font-size: 2rem;
+    margin-right: 3rem;
+}
+
+
