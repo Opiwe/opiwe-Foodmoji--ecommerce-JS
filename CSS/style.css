@@ -44,6 +44,11 @@ body{
     cursor: pointer;
 }
 
+.btn:hover{
+    background: var(--orange);
+    color: #fff;
+}
+
 .header{
     position: fixed;
     top: 0;
