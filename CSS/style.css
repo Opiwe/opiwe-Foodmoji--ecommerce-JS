@@ -109,7 +109,7 @@ body{
     position: absolute;
     top: 110%;
     right: -110%;
-    width: 50rem;
+    width: 46rem;
     height: 5rem;
     background: #fff;
     border-radius: .5rem;
@@ -330,7 +330,7 @@ body{
     }
 }
 
-@media (max-width:450px) {
+@media (max-width:650px) {
     html {
         font-size: 50%;
     }
