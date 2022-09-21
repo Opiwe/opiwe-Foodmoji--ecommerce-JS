@@ -572,24 +572,52 @@ section{
     padding: 1rem 0;
 }
 
-.footer .box-container .box .links:hover i{
+.footer .box-container .box .links i{
     color: var(--green);
+    padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover i{
     padding-right: 2rem;
 }
 
 .footer .box-container .box p{
     line-height: 1.8;
     font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 1rem 0;
 }
 
-.footer .box-container .box .share .links{
+.footer .box-container .box .share a{
     height: 4rem;
     width: 4rem;
     line-height: 4rem;
     border-radius: .5rem;
     font-size: 2rem;
     color: var(--black);
-    margin-left: .2rem;
+    margin-right: .2rem; 
+    background: #eee;
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover{
+    background: var(--green);
+    color: #fff;
+}
+
+.footer .box-container .box .email{
+    width: 100%;
+    margin: 7rem 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.footer .box-container .box .payment-img{
+    
 }
 
 
