@@ -565,14 +565,14 @@ section{
     cursor: pointer;
 }
 
-.footer .box-container .box a{
+.footer .box-container .box .links{
     display: block;
     font-size: 1.5rem;
     color: var(--light-color);
     padding: 1rem 0;
 }
 
-.footer .box-container .box a:hover i{
+.footer .box-container .box .links:hover i{
     color: var(--green);
     padding-right: 2rem;
 }
@@ -582,7 +582,7 @@ section{
     font-size: 1.5rem;
 }
 
-.footer .box-container .box .share a{
+.footer .box-container .box .share .links{
     height: 4rem;
     width: 4rem;
     line-height: 4rem;
